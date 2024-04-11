@@ -209,8 +209,8 @@ tabs = dbc.Tabs(
 
 
 app = Dash(__name__, external_stylesheets = [dbc.themes.FLATLY, dbc_css])
-server = app.server
 app.title = 'Spot price dashboard'
+server = app.server
 
 text = """
 This dashboard shows the hourly spot electricity price in Norway in January, 2023.
